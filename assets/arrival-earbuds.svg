@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Bluetooth earbuds product display">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f9f9f6"/><stop offset=".48" stop-color="#cfd6de"/><stop offset="1" stop-color="#0e1014"/></linearGradient>
+    <linearGradient id="bud" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff"/><stop offset=".52" stop-color="#e3e7ec"/><stop offset="1" stop-color="#a5acb5"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-25%" width="160%" height="170%"><feDropShadow dx="0" dy="32" stdDeviation="28" flood-color="#000" flood-opacity=".32"/></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="900" height="700" rx="42" fill="url(#bg)"/>
+  <circle cx="724" cy="132" r="180" fill="#fff" opacity=".24" filter="url(#blur)"/>
+  <ellipse cx="452" cy="590" rx="330" ry="62" fill="#000" opacity=".26" filter="url(#blur)"/>
+  <g filter="url(#shadow)">
+    <rect x="270" y="330" width="360" height="190" rx="72" fill="url(#bud)"/>
+    <rect x="320" y="360" width="260" height="92" rx="42" fill="#f8f8f5"/>
+    <circle cx="450" cy="398" r="16" fill="#b4bbc4"/>
+    <g transform="translate(282 130) rotate(-13 96 170)">
+      <rect x="82" y="148" width="54" height="210" rx="27" fill="url(#bud)"/>
+      <ellipse cx="104" cy="122" rx="70" ry="84" fill="url(#bud)"/>
+      <ellipse cx="102" cy="122" rx="33" ry="42" fill="#15171c" opacity=".84"/>
+    </g>
+    <g transform="translate(470 126) rotate(13 96 170)">
+      <rect x="82" y="148" width="54" height="210" rx="27" fill="url(#bud)"/>
+      <ellipse cx="104" cy="122" rx="70" ry="84" fill="url(#bud)"/>
+      <ellipse cx="106" cy="122" rx="33" ry="42" fill="#15171c" opacity=".84"/>
+    </g>
+  </g>
+</svg>
