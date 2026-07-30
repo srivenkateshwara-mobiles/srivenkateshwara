@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Samsung accessories collection">
+  <defs>
+    <linearGradient id="a" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#dff3ff"/><stop offset=".44" stop-color="#6ca8d8"/><stop offset="1" stop-color="#0a0d13"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="900" height="620" rx="34" fill="#f6f6f3"/>
+  <circle cx="188" cy="132" r="180" fill="#111318" opacity=".08"/>
+  <g filter="url(#s)">
+    <rect x="306" y="78" width="288" height="450" rx="42" fill="#111318"/>
+    <rect x="330" y="106" width="240" height="394" rx="28" fill="url(#a)"/>
+    <circle cx="450" cy="142" r="8" fill="#111318"/>
+  </g>
+  <rect x="126" y="405" width="172" height="90" rx="28" fill="#111318"/>
+  <rect x="602" y="405" width="172" height="90" rx="28" fill="#111318"/>
+  <path d="M160 218h96M150 276h128M174 334h84M642 218h104M626 276h134M654 334h92" stroke="#111318" stroke-width="18" stroke-linecap="round" opacity=".72"/>
+</svg>
